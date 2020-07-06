@@ -1,0 +1,45 @@
+// Copyright 2013 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+#include "base/power_monitor/power_monitor.h"
+#include "base/power_monitor/power_monitor_device_source.h"
+#include "base/power_monitor/power_monitor_source.h"
+#ifndef _KOS
+#include "jni/PowerMonitor_jni.h"
+#endif
+
+namespace base {
+
+// A helper function which is a friend of PowerMonitorSource.
+void ProcessPowerEventHelper(PowerMonitorSource::PowerEvent event) {
+  PowerMonitorSource::ProcessPowerEvent(event);
+}
+
+namespace android {
+#ifndef _KOS
+// Native implementation of PowerMonitor.java. Note: This will be invoked by
+// PowerMonitor.java shortly after startup to set the correct initial value for
+// "is on battery power."
+void JNI_PowerMonitor_OnBatteryChargingChanged(
+    JNIEnv* env,
+    const JavaParamRef<jclass>& clazz) {
+  ProcessPowerEventHelper(PowerMonitorSource::POWER_STATE_EVENT);
+}
+#endif
+// Note: Android does not have the concept of suspend / resume as it's known by
+// other platforms. Thus we do not send Suspend/Resume notifications. See
+// http://crbug.com/644515
+
+}  // namespace android
+
+bool PowerMonitorDeviceSource::IsOnBatteryPowerImpl() {
+#ifndef _KOS
+  JNIEnv* env = base::android::AttachCurrentThread();
+  return base::android::Java_PowerMonitor_isBatteryPower(env);
+#else
+  return false;
+#endif
+}
+
+}  // namespace base

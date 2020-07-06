@@ -1,0 +1,162 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: launcher-lib\n"
+"POT-Creation-Date: 2020-07-02 20:57+0800\n"
+"PO-Revision-Date: 2016-01-03 20:34+0800\n"
+"Last-Translator: service <service@leagor.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: _;vgettext2\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: apps-src/apps/launcher\n"
+"X-Poedit-SearchPath-1: apps-res/po/app-launcher/cfg-cpp/launcher-lib\n"
+"X-Poedit-SearchPath-2: apps-src/apps/external/freerdp/server/shadow/shadow_cliprdr_kos.cpp\n"
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/_bonus.cpp:1
+msgid "launcher"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:1
+msgid "Client has not received screen images, For example, mstsc.exe performs minimization, and automatically disconnects after selected time"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:3
+msgid "Date"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:5
+msgid "Edit"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:7
+msgid "File name"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:9
+msgid "Multi select"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:11
+msgid "New floder"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:13
+msgid "file^Size"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:15
+#: apps-src/apps/launcher/gui/dialogs/home.cpp:42
+msgid "icon^Explorer"
+msgstr ""
+
+#: apps-res/po/app-launcher/cfg-cpp/launcher-lib/gui.cpp:17
+msgid "object^Name"
+msgstr ""
+
+#: apps-src/apps/external/freerdp/server/shadow/shadow_cliprdr_kos.cpp:252
+msgid "Get clipboard format data"
+msgstr ""
+
+#: apps-src/apps/external/freerdp/server/shadow/shadow_cliprdr_kos.cpp:413
+msgid "About remaining $time"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:176
+msgid "UserData"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:178
+msgid "C:"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:180
+msgid "Device"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:183
+msgid "Sandbox"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:324
+msgid "Select"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:583
+msgid "$items items"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:647
+msgid "Input floder name"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:656
+msgid "OK"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:673
+msgid "Create $folder fail"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:702
+msgid "No client, cannot copy or paste"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:711
+msgid "Copy"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:716
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:754
+msgid "Paste"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:720
+msgid "Copy require select item. Paste require client copy item"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:753
+msgid "When pasting, please Must not switch $app to background, otherwise will cause $app to exit illegally"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:757
+msgid "Paste $file fail, Cancel paste"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:761
+msgid "Create $directory fail, Cancel paste"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:764
+msgid "Get remote format fail, Cancel paste"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/explorer.cpp:768
+msgid "Paste $file fail, remote clipboard's content was changed. Cancel paste"
+msgstr ""
+
+#: apps-src/apps/launcher/gui/dialogs/home.cpp:44
+msgid "launcher user remark, $explorer"
+msgstr ""
+
+#: apps-src/apps/launcher/main.cpp:70 apps-src/apps/launcher/main.cpp:72
+#: apps-src/apps/launcher/main.cpp:74
+msgid "$count minutes"
+msgstr ""
+
+#: apps-src/apps/launcher/main.cpp:76
+msgid "$count hours"
+msgstr ""
+
+#: apps-src/apps/launcher/main.cpp:77
+msgid "No restrictions"
+msgstr ""
+
+#: apps-src/apps/launcher/main.cpp:122
+msgid "gui/scene"
+msgstr ""
